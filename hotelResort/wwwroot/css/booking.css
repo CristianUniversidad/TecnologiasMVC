@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511') no-repeat center center/cover;
+}
+
+.container {
+    text-align: center;
+    padding: 0px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: bold;
+    background: #f6e9db;
+    display: inline-block;
+    padding: 20px 60px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.booking-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.calendar {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+    .calendar-header button {
+        border: none;
+        background: #f6e1c5;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+.weekdays, .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+    .weekdays span {
+        font-weight: bold;
+    }
+
+    .days span {
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+        .days span:hover {
+            background: #f6e1c5;
+        }
+
+    .days .today {
+        background: #f6e1c5;
+        font-weight: bold;
+    }
+
+    .days .selected {
+        background: #333;
+        color: #fff;
+    }
+
+.formulario {
+    background: #f6e1c5;
+    padding: 30px;
+    border-radius: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+    background: #fff;
+}
+
+    .input-box i {
+        margin: 0 8px;
+        color: #444;
+    }
+
+    .input-box input {
+        border: none;
+        outline: none;
+        flex: 1;
+        padding: 8px;
+    }
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 20px 0 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin-bottom: 15px;
+}
+
+/* === BOTÓN RESERVAR === */
+.reservar-btn {
+    font-family: "Tiro Bangla", serif;
+    color: white;
+    background-color: #E0B279;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .reservar-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .reservar-btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .reservar-btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all 0.4s;
+        background-color: #E0B279;
+    }
+
+    .reservar-btn:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+    }
+
+
+/* === RESPONSIVE DESIGN === */
+
+/* --- Tablets (pantallas medianas) --- */
+@media (max-width: 1024px) {
+    .booking-box {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .calendar,
+    .formulario {
+        width: 80%;
+    }
+
+    .title {
+        font-size: 32px;
+        padding: 15px 40px;
+    }
+
+    .reservar-btn {
+        width: 180px;
+        font-size: 1.4rem;
+    }
+}
+
+/* --- Celulares grandes --- */
+@media (max-width: 768px) {
+    body {
+        background: #f6e9db; /* Fondo sólido para mejor legibilidad */
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .booking-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calendar,
+    .formulario {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .input-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .input-box i {
+            margin-bottom: 5px;
+        }
+
+    select {
+        font-size: 14px;
+    }
+
+    .reservar-btn {
+        width: 70%;
+        height: 45px;
+        font-size: 1.2rem;
+    }
+}
+
+/* --- Celulares pequeños (<=480px) --- */
+@media (max-width: 480px) {
+    .title {
+        font-size: 24px;
+        padding: 10px 25px;
+    }
+
+    .calendar,
+    .formulario {
+        width: 100%;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    input,
+    select {
+        font-size: 14px;
+    }
+
+    .reservar-btn {
+        width: 90%;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+
+/* Estilos de selección de fechas */
+.days .check-in {
+    background: #333;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.days .check-out {
+    background: #E0B279;
+    color: white;
+    border-radius: 50%;
+}
+
+.days .selected-range {
+    background: #f6e1c5;
+    color: #000;
+    border-radius: 50%;
+}

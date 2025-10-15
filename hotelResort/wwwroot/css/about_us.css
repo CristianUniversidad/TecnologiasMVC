@@ -1,0 +1,936 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Tiro Bangla", serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #FFF6EA;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #BFAE9F;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 320px;
+    animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo img {
+    width: 255px;
+    height: 123px;
+    margin: 0px 0px 0px 20px;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    color: black;
+    margin: 0px 20px 0px 20px;
+    font-size: 1.2rem;
+}
+
+.list-nav li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+    .list-nav li:hover {
+        color: #E0B279;
+        transform: translateY(-3px);
+    }
+
+    .list-nav li a {
+        position: relative;
+    }
+
+        .list-nav li a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: #E0B279;
+            transition: width 0.3s ease;
+        }
+
+        .list-nav li a:hover::after {
+            width: 100%;
+        }
+
+.sobre-nosotros {
+    text-align: left;
+    height: 700px;
+    width: 100%;
+}
+
+.title-sobrenosotros {
+    font-size: 55px;
+    margin-left: 22%;
+    margin-top: 3%;
+    font-weight: normal;
+}
+
+.sobre-nosotros-content {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.sobre-nosotros img {
+    width: 50%;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+    .sobre-nosotros img:hover {
+        transform: scale(1.05);
+    }
+
+.sobre-nosotros p {
+    font-size: 27px;
+    text-align: justify;
+    margin-right: 5%;
+}
+
+.mision-vision-valores {
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .mision-vision-valores img {
+        margin-top: 2%;
+        height: auto;
+        border-radius: 30px 0 0 30px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+        .mision-vision-valores img:hover {
+            transform: scale(1.05);
+        }
+
+.mision-vision-valores-izq {
+    margin-left: 5%;
+}
+
+    .mision-vision-valores-izq p {
+        font-size: 24px;
+        width: 700px;
+        text-align: justify;
+    }
+
+.mision-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+}
+
+.vision-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+}
+
+.valores-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+}
+
+.title-mision {
+    font-size: 55px;
+    background: #E0B279;
+    width: 180px;
+    margin-left: 10%;
+    margin: 10px;
+    margin-top: 50px;
+    font-weight: normal;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.title-vision {
+    font-size: 55px;
+    background: #E0B279;
+    width: 180px;
+    margin-left: 10%;
+    margin: 10px;
+    font-weight: normal;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-valores {
+    font-size: 55px;
+    background: #E0B279;
+    width: 180px;
+    margin-left: 10%;
+    margin: 10px;
+    font-weight: normal;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sede-colombia {
+    text-align: center;
+    height: 1700px;
+    width: 100%;
+    align-items: center;
+}
+
+.sede-carousel {
+    width: 95%;
+    max-width: none;
+    margin: 20px auto;
+    position: relative;
+    background: #FFF6EA;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    min-height: 90vh;
+}
+
+.title-sede {
+    text-align: center;
+    font-size: 48px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-weight: 300;
+    position: relative;
+}
+
+    .title-sede::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 4px;
+        background: linear-gradient(90deg, #E0B279, #BFAE9F);
+        border-radius: 2px;
+    }
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-track {
+    display: flex;
+    width: 200%;
+    height: 85vh;
+    animation: autoSlide 8s infinite;
+}
+
+.carousel-slide {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #BFAE9F;
+    transition: all 0.5s ease;
+}
+
+.colombia-slide {
+    background: linear-gradient(135deg, #BFAE9F 0%, #E0B279 100%);
+}
+
+.argentina-slide {
+    background: linear-gradient(135deg, #E0B279 0%, #BFAE9F 100%);
+}
+
+.slide-content {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeInUp 1s ease-out;
+    position: relative;
+}
+
+.title-colombia, .title-argentina {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    animation: slideInLeft 1s ease-out;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.country-flag {
+    max-width: 80%;
+    width: 80%;
+    height: 70vh;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    animation: bounceIn 1.2s ease-out;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+    .country-flag:hover {
+        transform: scale(1.05);
+    }
+
+.sede-info {
+    margin-top: 10px;
+    width: 90%;
+    max-width: 600px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.hotel-item {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 8px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+    animation: slideInRight 1s ease-out;
+}
+
+    .hotel-item:hover {
+        background: rgba(0, 0, 0, 0.7);
+        transform: translateY(-3px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    }
+
+    .hotel-item h3 {
+        font-size: 22px;
+        margin-bottom: 8px;
+        font-weight: 500;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .hotel-item p {
+        font-size: 15px;
+        opacity: 0.95;
+        line-height: 1.5;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    z-index: 20;
+}
+
+    .carousel-indicators input[type="radio"] {
+        display: none;
+    }
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
+    .indicator:hover {
+        background: rgba(255, 255, 255, 0.8);
+        transform: scale(1.1);
+    }
+
+#radio-colombia:checked ~ .carousel-track {
+    animation: none;
+    transform: translateX(0);
+}
+
+#radio-argentina:checked ~ .carousel-track {
+    animation: none;
+    transform: translateX(-50%);
+}
+
+/* Indicadores activos */
+#radio-colombia:checked + .indicator,
+#radio-argentina:checked + .indicator {
+    background: white;
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+/* Animaciones */
+@keyframes autoSlide {
+    0%, 45% {
+        transform: translateX(0);
+    }
+
+    50%, 95% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    70% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Efecto hover en el carrusel */
+.sede-carousel:hover .carousel-track {
+    animation-play-state: paused;
+}
+
+/* Efectos hover responsive para las otras imágenes */
+@media (max-width: 768px) {
+    .sobre-nosotros img:hover,
+    .mision-vision-valores img:hover {
+        transform: scale(1.03);
+    }
+}
+
+@media (max-width: 480px) {
+    .sobre-nosotros img:hover,
+    .mision-vision-valores img:hover {
+        transform: scale(1.02);
+    }
+}
+
+/* Responsive para tablets grandes */
+@media (max-width: 1024px) {
+    .sede-carousel {
+        width: 98%;
+        padding: 8px;
+        min-height: 75vh;
+    }
+
+    .carousel-track {
+        height: 75vh;
+    }
+
+    .title-sede {
+        font-size: 42px;
+    }
+
+    .title-colombia, .title-argentina {
+        font-size: 48px;
+    }
+
+    .country-flag {
+        width: 75%;
+        height: 65vh;
+    }
+
+    .sede-info {
+        width: 85%;
+        max-width: 500px;
+    }
+
+    .hotel-item h3 {
+        font-size: 20px;
+    }
+
+    .hotel-item p {
+        font-size: 14px;
+    }
+}
+
+/* Responsive para tablets */
+@media (max-width: 768px) {
+    .sede-carousel {
+        margin: 5px auto;
+        padding: 5px;
+        width: 98%;
+        min-height: 70vh;
+    }
+
+    .title-sede {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-track {
+        height: 65vh;
+    }
+
+    .slide-content {
+        padding: 5px;
+    }
+
+    .title-colombia, .title-argentina {
+        font-size: 40px;
+        top: 15px;
+    }
+
+    .country-flag {
+        max-width: 80%;
+        width: 80%;
+        height: 55vh;
+        margin: 15px 0;
+    }
+
+    .sede-info {
+        width: 90%;
+        max-width: 450px;
+        bottom: 15px;
+    }
+
+    .hotel-item {
+        padding: 12px;
+        margin: 6px 0;
+    }
+
+        .hotel-item h3 {
+            font-size: 18px;
+        }
+
+        .hotel-item p {
+            font-size: 13px;
+        }
+
+    .carousel-indicators {
+        bottom: 25px;
+    }
+
+    .indicator {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+/* Responsive para móviles grandes */
+@media (max-width: 480px) {
+    .sede-carousel {
+        margin: 2px auto;
+        padding: 3px;
+        width: 99%;
+        min-height: 65vh;
+    }
+
+    .title-sede {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .carousel-track {
+        height: 60vh;
+    }
+
+    .title-colombia, .title-argentina {
+        font-size: 32px;
+        top: 10px;
+    }
+
+    .country-flag {
+        max-width: 85%;
+        width: 85%;
+        height: 50vh;
+        margin: 10px 0;
+    }
+
+    .sede-info {
+        width: 95%;
+        max-width: 350px;
+        bottom: 10px;
+    }
+
+    .hotel-item {
+        padding: 10px;
+        margin: 5px 0;
+    }
+
+        .hotel-item h3 {
+            font-size: 16px;
+        }
+
+        .hotel-item p {
+            font-size: 12px;
+        }
+
+    .carousel-indicators {
+        bottom: 20px;
+        gap: 12px;
+    }
+
+    .indicator {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+/* Responsive para móviles pequeños */
+@media (max-width: 360px) {
+    .sede-carousel {
+        width: 100%;
+        padding: 2px;
+        min-height: 60vh;
+    }
+
+    .title-sede {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-track {
+        height: 55vh;
+    }
+
+    .title-colombia, .title-argentina {
+        font-size: 28px;
+        top: 8px;
+    }
+
+    .country-flag {
+        max-width: 90%;
+        width: 90%;
+        height: 45vh;
+        margin: 8px 0;
+    }
+
+    .sede-info {
+        width: 98%;
+        max-width: 300px;
+        bottom: 8px;
+    }
+
+    .hotel-item {
+        padding: 8px;
+        margin: 4px 0;
+    }
+
+        .hotel-item h3 {
+            font-size: 14px;
+        }
+
+        .hotel-item p {
+            font-size: 11px;
+        }
+
+    .carousel-indicators {
+        bottom: 15px;
+        gap: 10px;
+    }
+
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+/* Responsive para orientación landscape en móviles */
+@media (max-width: 768px) and (orientation: landscape) {
+    .sede-carousel {
+        min-height: 90vh;
+    }
+
+    .carousel-track {
+        height: 80vh;
+    }
+
+    .country-flag {
+        height: 70vh;
+    }
+
+    .title-colombia, .title-argentina {
+        font-size: 32px;
+        top: 15px;
+    }
+
+    .sede-info {
+        bottom: 20px;
+    }
+
+    .carousel-indicators {
+        bottom: 30px;
+    }
+}
+
+/* Responsive para pantallas muy grandes */
+@media (min-width: 1400px) {
+    .sede-carousel {
+        max-width: 1600px;
+        width: 90%;
+    }
+
+    .carousel-track {
+        height: 80vh;
+    }
+
+    .title-sede {
+        font-size: 56px;
+    }
+
+    .title-colombia, .title-argentina {
+        font-size: 64px;
+    }
+
+    .country-flag {
+        max-width: 75%;
+        width: 75%;
+        height: 75vh;
+    }
+
+    .sede-info {
+        max-width: 700px;
+    }
+
+    .hotel-item h3 {
+        font-size: 26px;
+    }
+
+    .hotel-item p {
+        font-size: 18px;
+    }
+}
+
+/* Mejoras para pantallas de alta densidad */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .country-flag {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+
+    .hotel-item {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid #eee;
+    animation: fadeIn 1s ease-out;
+    margin-top: 200px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Columna de enlaces */
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+    .footer-links ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-links h4,
+    .footer-newsletter h4,
+    .footer-social h4 {
+        font-size: 16px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .footer-links ul li {
+            margin-bottom: 8px;
+        }
+
+            .footer-links ul li a {
+                text-decoration: none;
+                color: #000;
+                font-size: 14px;
+            }
+
+                .footer-links ul li a:hover {
+                    color: #666;
+                }
+
+/* Centro */
+.footer-center {
+    text-align: center;
+    max-width: 300px;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+    .footer-center p {
+        margin: 8px 0;
+    }
+
+/* Newsletter */
+.footer-newsletter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 200px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .footer-newsletter input:focus {
+        border-color: #E0B279;
+        box-shadow: 0 0 0 2px rgba(224, 178, 121, 0.2);
+    }
+
+.footer-newsletter button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+    .footer-newsletter button:hover {
+        background: #333;
+        transform: translateY(-2px);
+    }
+
+/* Redes */
+.footer-social {
+    margin-top: 20px;
+}
+
+    .footer-social a {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #000;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }

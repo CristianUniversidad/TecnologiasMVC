@@ -1,0 +1,74 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/booking.css" />
+
+<div class="container">
+    <h1 class="title">Booking</h1>
+    <div class="booking-box">
+        <!-- Calendario -->
+        <div class="calendar">
+            <div class="calendar-header">
+                <button id="prev">&lt;</button>
+                <span id="month-year"></span>
+                <button id="next">&gt;</button>
+            </div>
+            <div class="weekdays">
+                <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+            </div>
+            <div class="days" id="days"></div>
+        </div>
+
+        <!-- Formulario -->
+        <div class="formulario">
+            <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Name" />
+            </div>
+            <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-box">
+                <i class="fas fa-phone"></i>
+                <input type="tel" placeholder="Phone" />
+            </div>
+            <h3>Habitaciones</h3>
+            <select>
+                <option>Seleccionar</option>
+                <option>Clasica Vista al mar</option>
+                <option>Clasica Vista a la bahia</option>
+                <option>Clasica Queen Vista al mar</option>
+                <option>Clasica Queen Vista a la bahia</option>
+                <option>Suite Ocean</option>
+                <option>Suite Ocean Grand</option>
+                <option>Suite Presidencial</option>
+            </select>
+            <h3>Huespedes</h3>
+            <h3>Fechas seleccionadas</h3>
+            <div class="input-box">
+                <i class="fas fa-calendar-check"></i>
+                <input type="text" id="entrada" placeholder="Día de entrada" readonly />
+            </div>
+            <div class="input-box">
+                <i class="fas fa-calendar-day"></i>
+                <input type="text" id="salida" placeholder="Día de salida" readonly />
+            </div>
+            <select>
+                <option>Seleccionar</option>
+                <option>1 Huésped</option>
+                <option>2 Huéspedes</option>
+                <option>3 Huéspedes</option>
+                <option>4+ Huéspedes</option>
+            </select>
+        </div>
+    </div>
+    <button class="btn-pulse reservar-btn">Reservar ahora</button>
+</div>
+
+
+<script src="~/js/booking.js" asp-append-version="true"></script>

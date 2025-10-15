@@ -1,0 +1,103 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<link rel="stylesheet" href="~/css/about_us.css" />
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<main>
+    <section class="sobre-nosotros">
+        <h1 class="title-sobrenosotros">About us</h1>
+        <div class="sobre-nosotros-content">
+            <img src="~/img/Hotel.png" alt="Hotel" />
+            <p>
+                En InterContinental Hotels & Resorts ofrecemos experiencias de
+                hospitalidad de lujo en los destinos más emblemáticos del mundo. Con
+                una trayectoria que combina elegancia atemporal y servicio
+                excepcional, brindamos a nuestros huéspedes estancias
+                personalizadas, conectándolos con la cultura local y el confort
+                global. Nuestro compromiso es hacer que cada viaje sea inolvidable,
+                cuidando cada detalle y superando las expectativas en cada visita.
+            </p>
+        </div>
+    </section>
+    <section class="mision-vision-valores">
+        <div class="mision-vision-valores-izq">
+            <div class="mision-content">
+                <h1 class="title-mision">Mision</h1>
+                <p>
+                    "Ofrecer hospitalidad de lujo con un servicio excepcional que haga
+                    cada estancia única."
+                </p>
+            </div>
+            <div class="vision-content">
+                <h1 class="title-vision">Vision</h1>
+                <p>
+                    "Ser la cadena hotelera líder mundial, reconocida por elegancia,
+                    innovación y experiencias auténticas."
+                </p>
+            </div>
+            <div class="valores-content">
+                <h1 class="title-valores">Valores</h1>
+                <p>
+                    "Excelencia en todo lo que hacemos. Autenticidad en cada destino.
+                    Hospitalidad que supera expectativas."
+                </p>
+            </div>
+        </div>
+        <img src="~/img/mesera.png" alt="mesera">
+    </section>
+    <section class="sede-carousel">
+        <h1 class="title-sede">Nuestras Sedes</h1>
+
+        <!-- Indicadores de navegación -->
+        <div class="carousel-indicators">
+            <input type="radio" name="carousel" id="radio-colombia" checked>
+            <label for="radio-colombia" class="indicator"></label>
+            <input type="radio" name="carousel" id="radio-argentina">
+            <label for="radio-argentina" class="indicator"></label>
+        </div>
+
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <!-- Slide Colombia -->
+                <div class="carousel-slide colombia-slide">
+                    <div class="slide-content">
+                        <h2 class="title-colombia">🇨🇴 Colombia</h2>
+                        <img src="~/img/Colombia.png" alt="Hotel Colombia" class="country-flag">
+                        <div class="sede-info">
+                            <div class="hotel-item">
+                                <h3>Intercontinental Cali</h3>
+                                <p>📍 Avenida Colombia # 2-72, Cali, Valle del Cauca</p>
+                            </div>
+                            <div class="hotel-item">
+                                <h3>InterContinental Cartagena de Indias</h3>
+                                <p>📍 Bocagrande, Carrera 1 No. 5-01, Cartagena de Indias, Bolívar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide Argentina -->
+                <div class="carousel-slide argentina-slide">
+                    <div class="slide-content">
+                        <h2 class="title-argentina">🇦🇷 Argentina</h2>
+                        <img src="~/img/Argetina.png" alt="Hotel Argentina" class="country-flag">
+                        <div class="sede-info">
+                            <div class="hotel-item">
+                                <h3>Intercontinental Buenos Aires</h3>
+                                <p>📍 809 Moreno Street, C1091AAQ, Ciudad de Buenos Aires</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>

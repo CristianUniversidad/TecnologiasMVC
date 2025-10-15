@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
+    <title>Intercontinental Cartagena de Indias</title>
+</head>
+<body>
+
+    <header class="header">
+        <figure class="logo">
+            <img src="~/img/Logo-Intercontinental-Cartagena.png" alt="Logo Intercontinental Cartagena">
+        </figure>
+        <nav>
+            <ul class="list-nav">
+                <li><a asp-controller="Home" asp-action="Index">HOME</a></li>
+                <li><a asp-controller="Home" asp-action="Habitaciones">HABITACIONES</a></li>
+                <li><a asp-controller="Home" asp-action="about_us">ABOUT US</a></li>
+                <li><a asp-controller="Home" asp-action="login">INICIAR SESION</a></li>
+                <li><a asp-controller="Home" asp-action="registro">REGISTRATE</a></li>
+            </ul>
+        </nav>
+    </header>
+    @RenderBody()
+    <footer>
+        <!-- Enlaces -->
+        <div class="footer-links">
+            <div>
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="#" class="hover-grow">Luxury Stay</a></li>
+                    <li><a href="#" class="hover-grow">Dinning</a></li>
+                    <li><a href="#" class="hover-grow">Entertainment</a></li>
+                    <li><a href="#" class="hover-grow">Events</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="/html/booking.html" class="hover-grow">About Us</a></li>
+                    <li><a href="#" class="hover-grow">Our History</a></li>
+                    <li><a href="#" class="hover-grow">Career</a></li>
+                    <li><a href="#" class="hover-grow">Gallery</a></li>
+                    <li><a href="#" class="hover-grow">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Centro -->
+        <div class="footer-center">
+            <p>Sector 77, Gurugram, <br> Haryana 122004</p>
+            <p><strong>+91-7666779997</strong><br>(24/7 Open Line)</p>
+            <p>info@aapnoghar.com</p>
+        </div>
+
+        <!-- Newsletter + Redes -->
+        <div>
+            <div class="footer-newsletter">
+                <h4>Subscribe Our Newsletter</h4>
+                <input type="email" placeholder="Enter E-mail Id">
+                <br>
+                <button class="btn-pulse">SUBSCRIBE NOW</button>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <!-- Usando emojis como íconos básicos -->
+                <a href="#" class="social-icon">📘</a> <!-- Facebook -->
+                <a href="#" class="social-icon">📸</a> <!-- Instagram -->
+                <a href="#" class="social-icon">🐦</a> <!-- Twitter -->
+                <a href="#" class="social-icon">📌</a> <!-- Pinterest -->
+                <a href="#" class="social-icon">▶️</a> <!-- YouTube -->
+            </div>
+        </div>
+    </footer>
+    
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

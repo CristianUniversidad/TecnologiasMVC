@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Tiro Bangla", serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #FFF6EA;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size:2rem;
+}
+body {
+    margin: 0;
+    background: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #FFF6EA;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #3b2f2f;
+    margin-bottom: 10px;
+}
+
+.summary {
+    text-align: center;
+    background-color: #FFF6EA;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.section {
+    background-color: #FFF6EA;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #3b2f2f;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+label {
+    flex: 1 1 45%;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+input {
+    flex: 1 1 45%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #AC7F5E;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Tiro Bangla", serif;
+}
+
+    button:hover {
+        background-color: #92694f;
+    }
+
+@media (max-width: 600px) {
+    .form-group label, .form-group input {
+        flex: 1 1 100%;
+    }
+}
