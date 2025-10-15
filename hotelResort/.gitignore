@@ -1,0 +1,87 @@
+## Visual Studio / .NET / ASP.NET Core
+
+# Archivos de compilación
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vspscc
+
+# Archivos de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos generados por Visual Studio
+.vs/
+*.vscode/
+*.resharper/
+*.ncrunchproject
+*.ncrunchsolution
+_ReSharper*/
+*.DotSettings.user
+
+# Archivos de configuración local
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Archivos de publicación
+publish/
+dist/
+wwwroot/lib/
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Archivos de dependencias locales
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Archivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos de sistema operativo
+.DS_Store
+Icon?
+._*
+
+# Archivos temporales
+*.tmp
+*.bak
+*.old
+*.swp
+*.swo
+
+# Archivos de logs
+*.log
+logs/
+log/
+
+# Archivos de entorno o secretos
+.env
+.env.*
+secrets.json
+secrets/
+
+# Carpetas de build o herramientas externas
+node_modules/
+bower_components/
+.idea/
