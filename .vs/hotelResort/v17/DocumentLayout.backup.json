@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\hotelresort\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|solutionrelative:hotelresort\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\hotelresort\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|solutionrelative:hotelresort\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\hotelresort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|solutionrelative:hotelresort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{87D153F2-399B-4D06-B012-3A9A08FC460B}|RegistroAPI\\RegistroAPI.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\registroapi\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D153F2-399B-4D06-B012-3A9A08FC460B}|RegistroAPI\\RegistroAPI.csproj|solutionrelative:registroapi\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D153F2-399B-4D06-B012-3A9A08FC460B}|RegistroAPI\\RegistroAPI.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\registroapi\\models\\registrorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D153F2-399B-4D06-B012-3A9A08FC460B}|RegistroAPI\\RegistroAPI.csproj|solutionrelative:registroapi\\models\\registrorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D153F2-399B-4D06-B012-3A9A08FC460B}|RegistroAPI\\RegistroAPI.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\registroapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D153F2-399B-4D06-B012-3A9A08FC460B}|RegistroAPI\\RegistroAPI.csproj|solutionrelative:registroapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\hotelresort\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|solutionrelative:hotelresort\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "registro.cshtml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\registro.cshtml",
-              "RelativeDocumentMoniker": "hotelResort\\Views\\Home\\registro.cshtml",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\registro.cshtml*",
-              "RelativeToolTip": "hotelResort\\Views\\Home\\registro.cshtml*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-24T21:03:52.919Z",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\RegistroAPI\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "RegistroAPI\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\RegistroAPI\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "RegistroAPI\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:35:50.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "hotelResort\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "hotelResort\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABSAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\registro.cshtml",
+              "RelativeDocumentMoniker": "hotelResort\\Views\\Home\\registro.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\registro.cshtml",
+              "RelativeToolTip": "hotelResort\\Views\\Home\\registro.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-24T21:01:09.047Z",
+              "WhenOpened": "2025-10-24T21:29:02.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RegistroController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\RegistroAPI\\Controllers\\RegistroController.cs",
+              "RelativeDocumentMoniker": "RegistroAPI\\Controllers\\RegistroController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\RegistroAPI\\Controllers\\RegistroController.cs",
+              "RelativeToolTip": "RegistroAPI\\Controllers\\RegistroController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwFUAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:22:28.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "login.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\login.cshtml",
               "RelativeDocumentMoniker": "hotelResort\\Views\\Home\\login.cshtml",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\login.cshtml",
-              "RelativeToolTip": "hotelResort\\Views\\Home\\login.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\login.cshtml*",
+              "RelativeToolTip": "hotelResort\\Views\\Home\\login.cshtml*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwFQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-24T21:00:51.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistroRequest.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\RegistroAPI\\Models\\RegistroRequest.cs",
+              "RelativeDocumentMoniker": "RegistroAPI\\Models\\RegistroRequest.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\RegistroAPI\\Models\\RegistroRequest.cs",
+              "RelativeToolTip": "RegistroAPI\\Models\\RegistroRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T21:35:53.063Z",
               "EditorCaption": ""
             }
           ]
