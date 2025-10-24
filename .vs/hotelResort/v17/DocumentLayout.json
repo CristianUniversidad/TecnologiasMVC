@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\hotelresort\\wwwroot\\js\\booking.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|solutionrelative:hotelresort\\wwwroot\\js\\booking.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\hotelresort\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|solutionrelative:hotelresort\\views\\home\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\hotelresort\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|solutionrelative:hotelresort\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|c:\\users\\usuario\\source\\repos\\hotelresort\\hotelresort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29CAB0D4-A592-4090-8653-31F89B70592A}|hotelResort\\hotelResort.csproj|solutionrelative:hotelresort\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "booking.js",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\wwwroot\\js\\booking.js",
-              "RelativeDocumentMoniker": "hotelResort\\wwwroot\\js\\booking.js",
-              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\wwwroot\\js\\booking.js",
-              "RelativeToolTip": "hotelResort\\wwwroot\\js\\booking.js",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAwwJAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-14T23:28:18.882Z",
+              "Title": "registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\registro.cshtml",
+              "RelativeDocumentMoniker": "hotelResort\\Views\\Home\\registro.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\registro.cshtml",
+              "RelativeToolTip": "hotelResort\\Views\\Home\\registro.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T21:03:52.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "hotelResort\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "hotelResort\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T21:01:09.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\login.cshtml",
+              "RelativeDocumentMoniker": "hotelResort\\Views\\Home\\login.cshtml",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\hotelResort\\hotelResort\\Views\\Home\\login.cshtml",
+              "RelativeToolTip": "hotelResort\\Views\\Home\\login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T21:00:51.434Z",
               "EditorCaption": ""
             }
           ]
